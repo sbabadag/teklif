@@ -27,7 +27,7 @@
      <enum>QFrame::NoFrame</enum>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page_3">
      <property name="geometry">
@@ -136,14 +136,14 @@
        </rect>
       </property>
       <property name="text">
-       <string>Teklifi veren : </string>
+       <string>Yetkili kişi : </string>
       </property>
      </widget>
      <widget class="QGroupBox" name="groupBox">
       <property name="geometry">
        <rect>
         <x>100</x>
-        <y>370</y>
+        <y>394</y>
         <width>561</width>
         <height>61</height>
        </rect>
@@ -151,7 +151,7 @@
       <property name="title">
        <string>İmalat Kapsamı</string>
       </property>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -203,7 +203,7 @@
       <property name="geometry">
        <rect>
         <x>100</x>
-        <y>150</y>
+        <y>174</y>
         <width>561</width>
         <height>211</height>
        </rect>
@@ -369,7 +369,7 @@
       <property name="geometry">
        <rect>
         <x>100</x>
-        <y>440</y>
+        <y>464</y>
         <width>561</width>
         <height>101</height>
        </rect>
@@ -377,7 +377,7 @@
       <property name="title">
        <string>İşveren yükümlülükleri</string>
       </property>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -438,7 +438,7 @@
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -490,7 +490,7 @@
       <property name="geometry">
        <rect>
         <x>100</x>
-        <y>550</y>
+        <y>574</y>
         <width>561</width>
         <height>101</height>
        </rect>
@@ -722,6 +722,32 @@
        </rect>
       </property>
      </widget>
+     <widget class="QLineEdit" name="lineEdit_13">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>140</y>
+        <width>291</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>70</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>İşin Yeri : </string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_4">
      <property name="geometry">
@@ -770,7 +796,7 @@
         <string>Özel ödeme : </string>
        </property>
       </widget>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -799,7 +825,7 @@
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>50</x>
@@ -828,7 +854,7 @@
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -873,6 +899,19 @@
         </rect>
        </property>
       </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>530</y>
+        <width>80</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Teklif hazırla</string>
+      </property>
      </widget>
     </widget>
    </widget>
