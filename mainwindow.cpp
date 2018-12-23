@@ -81,7 +81,7 @@ void MainWindow::setValue(int &recNo, QString &paramName, QVariant &paramValue, 
  if (paramName == "civatabaglantisistemi")                      paramValue =civatabaglantisistemi;
  if (paramName == "isverenyukumlulukleri")                      paramValue =isverenyukumlulukleri;
  if (paramName == "yukleniciyukumlulukleri")                    paramValue =yukleniciyukumlulukleri;
- if (paramName == "isinsuresi")                                 paramValue =ui->lineEdit_22->text() + " iş günüdür.";
+ if (paramName == "isinsuresi")                                 paramValue ="Yer/Proje Tesliminden  itibaren " + ui->lineEdit_22->text() + " iş günüdür.";
  if (paramName == "isinfiyati")                                 paramValue =ui->lineEdit_14->text()+ "TL/kg" ;
  if (paramName == "odeme")                                      paramValue =odeme;
  if (paramName == "referanslar")                                paramValue =ui->textEdit_2->toPlainText();
